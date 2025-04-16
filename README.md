@@ -64,35 +64,40 @@ VINEGUARD-Node/
 ├── platformio.ini            # PlatformIO board & lib config
 ├── README.md
 ```
-🔋 Power-Saving Details
-Uses esp_deep_sleep_start() for ultra low-power sleep between reads.
+---
 
-Wake time controlled by SLEEP_MINUTES constant.
+## 🔋 Power-Saving Details
 
-Ideal for battery + solar operation.
+- Uses `esp_deep_sleep_start()` for ultra low-power sleep between reads.
+- Wake time controlled by `SLEEP_MINUTES` constant.
+- Ideal for battery + solar operation.
 
-📦 Libraries Used
-Adafruit BME280
+---
 
-Adafruit Unified Sensor
+## 📦 Libraries Used
 
-LoRa by Sandeep Mistry
+- [Adafruit BME280](https://registry.platformio.org/libraries/adafruit/Adafruit%20BME280%20Library)
+- [Adafruit Unified Sensor](https://registry.platformio.org/libraries/adafruit/Adafruit%20Unified%20Sensor)
+- [LoRa by Sandeep Mistry](https://github.com/sandeepmistry/arduino-LoRa)
 
-🛣️ Roadmap
- BME280 + Soil sensor + LoRa
+---
 
- Deep sleep support
+## 🛣️ Roadmap
 
- Add SD card buffering (for offline scenarios)
+- ✅ BME280 + Soil sensor + LoRa transmission
+- ✅ Deep sleep support
+- ⏳ Add SD card buffering (for offline scenarios)
+- ⏳ Transmit as JSON (structured payloads)
+- ⏳ Integrate with Firebase / MQTT / REST cloud endpoint
+- ⏳ Auto-calibration features + OTA update support
+- ⏳ Dashboard frontend for vineyard customers 🌐
 
- Transmit as JSON (structured payloads)
+---
 
- Integrate with Firebase / MQTT / REST cloud endpoint
+## 📄 License & Disclaimer
 
- Auto-calibration features + OTA support
+MIT License © 2024 **Evan White**
 
- Dashboard frontend for vineyard customers 🌐
+> This is a pre-production prototype intended for educational and research purposes.  
+> Please calibrate sensors and validate all readings before deploying in production.
 
-🧪 License & Disclaimer
-MIT License © 2024 Evan White
-This is a pre-production prototype for educational and research purposes.
