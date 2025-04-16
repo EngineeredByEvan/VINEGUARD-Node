@@ -63,7 +63,7 @@ VINEGUARD-Node/
 │   └── wiring.png            # Wiring diagram image
 ├── platformio.ini            # PlatformIO board & lib config
 ├── README.md
-
+```
 🔋 Power-Saving Details
 Uses esp_deep_sleep_start() for ultra low-power sleep between reads.
 
