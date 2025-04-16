@@ -63,3 +63,36 @@ VINEGUARD-Node/
 │   └── wiring.png            # Wiring diagram image
 ├── platformio.ini            # PlatformIO board & lib config
 ├── README.md
+
+🔋 Power-Saving Details
+Uses esp_deep_sleep_start() for ultra low-power sleep between reads.
+
+Wake time controlled by SLEEP_MINUTES constant.
+
+Ideal for battery + solar operation.
+
+📦 Libraries Used
+Adafruit BME280
+
+Adafruit Unified Sensor
+
+LoRa by Sandeep Mistry
+
+🛣️ Roadmap
+ BME280 + Soil sensor + LoRa
+
+ Deep sleep support
+
+ Add SD card buffering (for offline scenarios)
+
+ Transmit as JSON (structured payloads)
+
+ Integrate with Firebase / MQTT / REST cloud endpoint
+
+ Auto-calibration features + OTA support
+
+ Dashboard frontend for vineyard customers 🌐
+
+🧪 License & Disclaimer
+MIT License © 2024 Evan White
+This is a pre-production prototype for educational and research purposes.
