@@ -1,5 +1,3 @@
-# VINEGUARD-Node
-VINEGUARD Node Firmware
 # 🌿 VINEGUARD™ Node v0.1
 
 **LoRa-based precision agriculture sensor node for vineyards and smart farming applications.**  
