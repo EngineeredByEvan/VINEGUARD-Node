@@ -97,5 +97,4 @@ VINEGUARD-Node/
 MIT License © 2024 **Evan White**
 
 > This is a pre-production prototype intended for educational and research purposes.  
-> Please calibrate sensors and validate all readings before deploying in production.
 
