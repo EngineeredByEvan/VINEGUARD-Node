@@ -1,4 +1,4 @@
-# 🌿 VINEGUARD™ Node v0.1
+# 🌿 VINEGUARD Node v0.1
 
 **LoRa-based precision agriculture sensor node for vineyards and smart farming applications.**  
 This firmware reads environmental + soil data, transmits it via LoRa, and enters deep sleep to conserve power.
